@@ -60,7 +60,6 @@ const handleEmitClose = (val) => {
 };
 
 const handleEmitForm = (val) => {
-  console.log(val, 'detail form');
   emit('form', val);
 };
 
